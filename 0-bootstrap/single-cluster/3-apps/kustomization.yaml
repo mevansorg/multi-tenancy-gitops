@@ -1,11 +1,11 @@
 resources:
-#- argocd/ace/cicd.yaml
-#- argocd/ace/dev.yaml
+- argocd/ace/cicd.yaml
+- argocd/ace/dev.yaml
 #- argocd/ace/stage.yaml
 #- argocd/ace/prod.yaml
 
-#- argocd/mq/cicd.yaml
-#- argocd/mq/dev.yaml
+- argocd/mq/cicd.yaml
+- argocd/mq/dev.yaml
 #- argocd/mq/stage.yaml
 #- argocd/mq/prod.yaml
 
@@ -14,12 +14,12 @@ resources:
 #- argocd/apic/stage.yaml
 #- argocd/apic/prod.yaml
 
-#- argocd/bookinfo/cicd.yaml
-#- argocd/bookinfo/dev.yaml
-#- argocd/bookinfo/stage.yaml
-#- argocd/bookinfo/prod.yaml
+- argocd/bookinfo/cicd.yaml
+- argocd/bookinfo/dev.yaml
+- argocd/bookinfo/stage.yaml
+- argocd/bookinfo/prod.yaml
 
-#- argocd/soapserver/soapserver.yaml
+- argocd/soapserver/soapserver.yaml
 
 patches:
 - target:
